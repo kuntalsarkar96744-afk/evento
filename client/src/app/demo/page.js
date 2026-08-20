@@ -40,12 +40,12 @@ export default function DemoPage() {
         </p>
       </section>
 
-   {/* YouTube Video Showcase */}
-<section className="w-full bg-black">
-  <div className="relative w-full aspect-video">
+  {/* YouTube Video Showcase */}
+<section className="w-full bg-black py-8">
+  <div className="relative w-full max-w-7xl mx-auto aspect-video">
     <iframe
-      src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&rel=0"
-      title="Evento Demo Video"
+      src="https://www.youtube.com/embed/zfZuzJb8g7Y?rel=0"
+      title="Evento Wedding Video"
       className="absolute inset-0 w-full h-full"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       referrerPolicy="strict-origin-when-cross-origin"
