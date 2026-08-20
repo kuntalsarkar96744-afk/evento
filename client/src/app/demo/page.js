@@ -40,11 +40,11 @@ export default function DemoPage() {
         </p>
       </section>
 
-     {/* YouTube Video Showcase */}
+   {/* YouTube Video Showcase */}
 <section className="w-full bg-black">
   <div className="relative w-full aspect-video">
     <iframe
-      src="https://youtu.be/zfZuzJb8g7Y?si=EefR71gvWtMc3sCZ"
+      src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&rel=0"
       title="Evento Demo Video"
       className="absolute inset-0 w-full h-full"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
