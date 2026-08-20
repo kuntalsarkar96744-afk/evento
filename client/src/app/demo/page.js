@@ -40,14 +40,19 @@ export default function DemoPage() {
         </p>
       </section>
 
-      {/* Fullscreen Event Showcase */}
-      <section className="relative w-screen h-screen bg-black overflow-hidden">
-        <img
-          src="/images/summer.webp"
-          alt="Evento music festival showcase"
-          className="absolute top-0 left-0 w-full h-full object-cover"
-        />
-      </section>
+     {/* YouTube Video Showcase */}
+<section className="w-full bg-black">
+  <div className="relative w-full aspect-video">
+    <iframe
+      src="https://youtu.be/zfZuzJb8g7Y?si=EefR71gvWtMc3sCZ"
+      title="Evento Demo Video"
+      className="absolute inset-0 w-full h-full"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerPolicy="strict-origin-when-cross-origin"
+      allowFullScreen
+    />
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="bg-black text-white py-12 px-6">
